@@ -1,7 +1,7 @@
 const byteSize = (str) => {
   
 	// Encode the string using UTF-8 encoding
-  const encodedString = new TextEncoder().encode(inputString);
+  const encodedString = new TextEncoder().encode(str);
   
   // Return the size of the encoded string in bytes
   return encodedString.length;
